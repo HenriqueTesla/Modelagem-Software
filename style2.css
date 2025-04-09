@@ -1,0 +1,36 @@
+body {
+  background-color: #111;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.menu-principal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 40px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.bloco-time {
+  background-color: #222;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 420px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bloco-time:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.5);
+}
+
+.bloco-time img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
