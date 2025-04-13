@@ -1,0 +1,25 @@
+body{margin:0;padding:0;background-color:#111111;font-family:Arial,sans-serif;color:#ffffff}
+
+.botao-voltar{position:absolute;top:20px;left:20px;padding:8px 16px;border:2px solid #00ff88;border-radius:10px;background-color:transparent;color:#00ff88;font-weight:bold;text-decoration:none;box-shadow:0 0 8px #00ff88;transition:0.3s ease}
+
+.botao-voltar:hover{background-color:#00ff88;color:#000;box-shadow:0 0 15px #00ff88}
+
+.container-flex{display:flex;justify-content:center;align-items:stretch;gap:40px;padding:100px 40px 60px;flex-wrap:wrap}
+
+.explicacao-pontos,.preco-pontos{flex:1;min-width:400px;max-width:500px;background-color:#1b1b1b;border-radius:12px;box-shadow:0 0 10px #00ff88;padding:20px;display:flex;flex-direction:column;justify-content:space-between}
+
+.explicacao-pontos h1{text-align:center;color:#00ff88;margin-bottom:30px}
+
+.bloco-ponto{margin-bottom:20px;background-color:#222;padding:20px;border-radius:10px;box-shadow:0 0 6px #00ff88}
+
+.bloco-ponto h2{color:#00ff88;margin-bottom:10px}
+
+.bloco-ponto p{line-height:1.6}
+
+.preco-pontos h2{color:#00ff88;text-align:center;margin-bottom:15px}
+
+.preco-pontos table{width:100%;border-collapse:collapse}
+
+.preco-pontos th,.preco-pontos td{border:1px solid #00ff88;padding:10px;text-align:center}
+
+.preco-pontos th{background-color:#111;color:#00ff88}
