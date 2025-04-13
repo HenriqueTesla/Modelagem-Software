@@ -67,3 +67,26 @@ h1 {
   font-weight: bold;
   font-size: 1rem;
 }
+
+.back-arrow {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  color: #00ff99;
+  background-color: #111;
+  border: 2px solid #00ff99;
+  padding: 8px 16px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 10px #00ff99;
+  z-index: 1000;
+}
+
+.back-arrow:hover {
+  background-color: #00ff99;
+  color: #111;
+  box-shadow: 0 0 20px #00ff99;
+}
