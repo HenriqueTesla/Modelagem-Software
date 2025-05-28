@@ -13,3 +13,9 @@
 .back-arrow{position:fixed;top:20px;left:20px;color:#00ff99;background-color:#111;border:2px solid #00ff99;padding:8px 16px;border-radius:12px;text-decoration:none;font-size:1rem;font-weight:bold;transition:0.3s ease-in-out;box-shadow:0 0 10px #00ff99;z-index:1000}
 
 .back-arrow:hover{background-color:#00ff99;color:#111;box-shadow:0 0 20px #00ff99}
+
+.datetime {margin-left: 10px;color: #bbb;font-size: 14px;}
+
+.vote-btn {margin-left: 10px;background-color: transparent;border: 2px solid #00ff88;color: #00ff88;padding: 6px 12px;border-radius: 8px;cursor: pointer;transition: 0.3s;}
+
+.vote-btn:hover {background-color: #00ff88;color: #000;}
