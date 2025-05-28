@@ -1,0 +1,21 @@
+body{margin:0;padding:20px;background-color:#111;font-family:'Segoe UI',sans-serif;color:#fff;display:flex;flex-direction:column;align-items:center}
+
+.botao-voltar{position:absolute;top:20px;left:20px;padding:8px 16px;border:2px solid #00ff88;border-radius:10px;background-color:transparent;color:#00ff88;font-weight:bold;text-decoration:none;box-shadow:0 0 8px #00ff88;transition:0.3s ease}
+
+.menu-button{position:absolute;top:20px;left:20px;background-color:transparent;border:2px solid #00ff88;color:#00ff88;padding:10px 16px;border-radius:10px;cursor:pointer;font-size:16px;transition:all 0.3s}
+
+.menu-button:hover{background-color:#00ff88;color:#000}
+
+.titulo{color:#00ff88;margin-top:80px;margin-bottom:30px;font-size:28px;text-align:center}
+
+.ranking-container{width:90%;max-width:600px;display:flex;flex-direction:column;gap:20px}
+
+.rank-item{background-color:#1b1b1b;border:2px solid #00ff88;border-radius:15px;padding:15px 25px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 0 10px #00ff88;transition:transform 0.2s ease}
+
+.rank-item:hover{transform:scale(1.02)}
+
+.posicao{font-weight:bold;font-size:18px}
+
+.nome{font-size:18px;color:#eee}
+
+.pontos{background-color:#00ff88;color:#000;padding:5px 12px;border-radius:10px;font-weight:bold}
